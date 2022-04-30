@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arayaryoma/eslint-config/issues"
   },
-  "homepage": "https://github.com/arayaryoma/eslint-config#readme"
+  "homepage": "https://github.com/arayaryoma/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^8.14.0"
+  }
 }

@@ -10,5 +10,10 @@ export async function runESLint(configFilePath, fixturePath) {
     path.resolve(process.cwd(), fixturePath),
   ]);
   const result = results[0];
+  if (result.errorCount !== 0) {
+    const formatter = await eslint.loadFormatter("stylish");
+    const resultsText = formatter.format(results);
+    console.log(resultsText);
+  }
   return result;
 }

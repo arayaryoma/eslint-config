@@ -8,7 +8,6 @@ const config = {
     "../configs/typescript",
     "../configs/react",
     "../configs/react-typescript",
-    "eslint:recommended",
   ],
 };
 

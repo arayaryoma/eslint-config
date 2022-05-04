@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "@arayaryoma/eslint-config",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -17,6 +17,7 @@
     "url": "https://github.com/arayaryoma/eslint-config/issues"
   },
   "homepage": "https://github.com/arayaryoma/eslint-config#readme",
+  "files":["presets"],
   "peerDependencies": {
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0"

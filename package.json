@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/arayaryoma/eslint-config#readme",
   "files": [
+    "configs",
     "presets"
   ],
   "peerDependencies": {

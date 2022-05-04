@@ -3,7 +3,7 @@
  **/
 
 const config = {
-	extends:["eslint:recommended"]
-}
+  extends: ["eslint:recommended"],
+};
 
 module.exports = config;

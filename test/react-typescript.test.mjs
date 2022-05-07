@@ -1,11 +1,10 @@
 import { runESLint } from "./runner.mjs";
-import test from "node:test";
-import assert from "node:assert";
+import { test, expect } from "vitest";
 
 test("react-typescript", async (t) => {
   const result = await runESLint(
     "presets/react-typescript.js",
     "test/fixtures/react-typescript/ok.tsx"
   );
-  assert.strictEqual(result.errorCount, 0);
+  expect(result.errorCount).toBe(0);
 });
